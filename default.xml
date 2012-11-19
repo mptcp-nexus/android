@@ -93,7 +93,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" />
-  <project path="external/iproute2" name="android_external_iproute2" remote="github" revision="master" />
+  <project path="external/iproute2" name="rwutzke/android_external_iproute2" remote="github" revision="master" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
