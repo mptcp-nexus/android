@@ -33,7 +33,7 @@
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="rwutzke/android_device_crespo" remote="github" revision="gapps" />
+  <project path="device/samsung/crespo" name="rwutzke/android_device_crespo" remote="github" revision="root" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
@@ -305,6 +305,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="rwutzke/android_system_netd" remote="github" revision="master" />
   <project path="system/security" name="platform/system/security" />
+  <project path="system/su" name="ChainsDD/su-binary" remote="github" revision="master" />
   <project path="system/vold" name="platform/system/vold" />
 
 </manifest>
