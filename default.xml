@@ -305,7 +305,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="rwutzke/android_system_netd" remote="github" revision="master" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/su" name="ChainsDD/su-binary" remote="github" revision="master" />
+  <project path="system/su" name="rwutzke/su-binary" remote="github" revision="master" />
   <project path="system/vold" name="platform/system/vold" />
 
 </manifest>
