@@ -57,3 +57,6 @@ Turn the Nexus S to fastboot mode (turn it of and then on again using Volume Up 
 ```
 $fastboot -w flashall
 ```
+
+#### Acknowledgments:
+This work was partially supported by the German BMBF within the project SKIMS.
