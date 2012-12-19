@@ -59,6 +59,11 @@ Turn the Nexus S to fastboot mode (turn it of and then on again using Volume Up 
 ```
 $fastboot -w flashall
 ```
+### About the project
+The main part is the kernel (prebuilt included, sources available at [Multipath TCP kernel](https://github.com/multipath-tcp/mptcp_3.0.x/tree/mptcp_samsung) ), which is a port from the linux kernel implementation for [MPTCP](https://github.com/multipath-tcp/mptcp).
+To enable 3G and WIFI the Android Connection Manager had to be changed (in android_framework_base).
+To setup routes automatically for both interfaces the Network Daemon had to be changed (in android_system_netd).
+And to enable the [MPTCPControl app](https://github.com/mptcp-galaxys2) the iproute2 package hat to be enhanced in order to support MPTCP specific commands (in android_external_iproute2).
 
 #### Acknowledgments:
 This work was partially supported by the German BMBF within the project SKIMS.
