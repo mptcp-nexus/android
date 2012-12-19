@@ -60,3 +60,4 @@ $fastboot -w flashall
 
 #### Acknowledgments:
 This work was partially supported by the German BMBF within the project SKIMS.
+Contact: Please, send any suggestions, bugs, and questions to [Raphael Wutzke](mailto:raphael.wutzke@googlemail.com)
