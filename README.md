@@ -19,7 +19,7 @@ $repo sync -j4
 After synchronising the repo you need to run from the root directory of the repository:
   
 ```
-$./script/script -root
+$./script/enhanceAOSP -root
 ```
 ##### The AOSP+MPTCP with integrated Google Apps
 Run:
@@ -31,7 +31,7 @@ $repo sync -j4
 After synchronising the repo you need to run from the root directory of the repository:
   
 ```
-$./script/script -gapps
+$./script/enhanceAOSP -gapps
 ```
 ##### Only the AOSP with MPTCP:
 
