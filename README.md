@@ -18,7 +18,7 @@ This may take a while. You can speed up the syncing and building using the -jn o
   * After synchronising the repo you need to run from the root directory of the repository:
   
   ```
-  $./script -root
+  $./script/script -root
   ```
 * If only the Google Apps shall be integrated you need to run:
 
@@ -29,7 +29,7 @@ This may take a while. You can speed up the syncing and building using the -jn o
   * After synchronising the repo you need to run from the root directory of the repository:
   
   ```
-  $./script -gapps
+  $./script/script -gapps
   ```
 * Otherwise you need to run:
 
