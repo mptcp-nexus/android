@@ -17,7 +17,7 @@ Run:
 
 After synchronising the repo you need to run from the root directory of the repository:
   
-    $ ./script/enhanceAOSP -root
+    $ ./script/enhanceAOSP.sh -root
 
 ##### 2. The AOSP+MPTCP with integrated Google Apps
 Run:
@@ -28,7 +28,7 @@ Run:
 After synchronising the repo you need to run from the root directory of the repository:
   
 
-    $ ./script/enhanceAOSP -gapps
+    $ ./script/enhanceAOSP.sh -gapps
 
 ##### 3. Only the AOSP with MPTCP:
 
