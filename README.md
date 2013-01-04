@@ -12,7 +12,7 @@ For building there are three different options:
 ##### 1. The AOSP+MPTCP with Root Access (Google Apps are integrated automatically)
 Run:
 
-    $ repo init -u https://github.com/multipath-tcp/android.git -b root
+    $ repo init -u https://github.com/mptcp-nexus/android.git -b root
     $ repo sync -j4
 
 After synchronising the repo you need to run from the root directory of the repository:
@@ -22,7 +22,7 @@ After synchronising the repo you need to run from the root directory of the repo
 ##### 2. The AOSP+MPTCP with integrated Google Apps
 Run:
 
-    $ repo init -u https://github.com/multipath-tcp/android.git -b gapps
+    $ repo init -u https://github.com/mptcp-nexus/android.git -b gapps
     $ repo sync -j4
 
 After synchronising the repo you need to run from the root directory of the repository:
@@ -32,7 +32,7 @@ After synchronising the repo you need to run from the root directory of the repo
 
 ##### 3. Only the AOSP with MPTCP:
 
-    $ repo init https://github.com/multipath-tcp/android.git
+    $ repo init https://github.com/mptcp-nexus/android.git
     $ repo sync -j4
 
 ### Update the bootloader (if Android 4.1 is not installed)
