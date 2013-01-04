@@ -33,7 +33,7 @@
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="multipath-tcp/android_device_crespo" remote="github" revision="gapps" />
+  <project path="device/samsung/crespo" name="mptcp-nexus/android_device_crespo" remote="github" revision="gapps" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
@@ -93,7 +93,7 @@
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" />
-  <project path="external/iproute2" name="multipath-tcp/android_external_iproute2" remote="github" revision="master" />
+  <project path="external/iproute2" name="mptcp-nexus/android_external_iproute2" remote="github" revision="master" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
@@ -185,7 +185,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="multipath-tcp/android_frameworks_base" remote="github" revision="master" />
+  <project path="frameworks/base" name="mptcp-nexus/android_frameworks_base" remote="github" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -298,13 +298,13 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="script" name="multipath-tcp/android_script" remote="github" revision="master" />
+  <project path="script" name="mptcp-nexus/android_script" remote="github" revision="master" />
 	<project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="multipath-tcp/android_system_netd" remote="github" revision="master" />
+  <project path="system/netd" name="mptcp-nexus/android_system_netd" remote="github" revision="master" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
