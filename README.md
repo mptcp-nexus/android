@@ -6,6 +6,7 @@ This is a Multipath TCP port for Android 4.1.2. Currently, it runs only on Nexus
 ## Requirements
 ### Initialize build environment
 See http://source.android.com/source/initializing.html
+And follow the instructions at http://source.android.com/source/building-devices.html#obtaining-proprietary-binaries
 
 The following may take a while. You can speed up the syncing and building using the -jn option, which will separate the task up into n threads.
 For building there are three different options:
@@ -40,7 +41,6 @@ After synchronising the repo you need to run from the root directory of the repo
 - Install ```fastboot```  (cf., https://developers.google.com/android/nexus/images#instructions - you can use the binaries from the SDK)
 - Delete the last line beginning with 'fastboot' in ```flash-all.sh```
 - Execute ```flash-all.sh```
-- Follow the instructions at http://source.android.com/source/building-devices.html#obtaining-proprietary-binaries
 
 ## Building
 Simply run:
