@@ -304,7 +304,7 @@
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="multipath-tcp/android_system_netd" remote="github" revision="master" />
+  <project path="system/netd" name="mptcp-nexus/android_system_netd" remote="github" revision="master" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
